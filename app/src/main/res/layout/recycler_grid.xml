@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    >
+
+    <ImageView
+        android:id="@+id/linear_image"
+        android:layout_width="300dp"
+        android:layout_height="400dp" />
+    <TextView
+        android:id="@+id/linear_title"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@+id/linear_image"
+        />
+    <TextView
+        android:id="@+id/linear_bargainPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#f00"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@+id/linear_title"
+        />
+    <TextView
+        android:id="@+id/linear_salenum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/linear_bargainPrice"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>
